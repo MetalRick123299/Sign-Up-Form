@@ -8,14 +8,48 @@
     <link rel="stylesheet" href="./form.css">
 </head>
 <body >
-    <div class="container">
-        <div class="container" style="position: absolute;">
-            <img class="waterImage" src="./Wave Image.jpg" alt="">
-        </div>
+    <div class="main-container">
+        <!-- <img class="wave-image" src="./Wave Image.jpg" alt="wave-image"> -->
 
         <section>
-            <form class="" action="">
+            <div class="logo-container">
+                <img style="height: 150px; width: 150px;" src="./Surfer Icon.png" alt="Surfer">
+            </div>
 
+            <div class="form-descriptions">
+
+            </div>
+
+            <form action id="wave-form">
+                <div class="input-container">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="phoneNum">Phone Number</label>
+                    <input type="tel" name="phoneNum" id="phoneNum" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                </div>
             </form>
         </section>
     </div>
