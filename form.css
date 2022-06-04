@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+
     box-sizing: border-box;
     color: white;
 }
@@ -8,22 +11,25 @@ body {
     align-items: center;
 
     height: 100vh;
-    background-color: black;
+    background-color: gray;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 75vh;
-    width: 75vw;
-
-    border: 5px solid grey;
-    border-radius: 5%;
+    flex: 0 0 auto;
+    height: 90vh;
+    width: auto;
 }
 
 section {
     border: 1px solid white;
     padding: 50px;
+    z-index: 1;
+}
+
+.waterImage {
+    max-width:100%;
+    max-height:100%;
+
+    border-radius: 5%;
 }
